@@ -19,7 +19,7 @@ public class IUserResourceImpl implements IUserResource {
 
 	@Override
 	public User getUserInfo(int userId) {
-		System.out.println("In IUserResourceImpl class and getUserInfo() method *************");
+		System.out.println("In IUserResourceImpl class and getUserInfo() method *************$$$$$$$$");
 		String username = "Siddharth";
 		
 		GregorianCalendar gcal = new GregorianCalendar();
@@ -29,7 +29,7 @@ public class IUserResourceImpl implements IUserResource {
 		user.setFirstName("Siddharth");
 		user.setLastName("Mannem");
 		user.setMatches(1);
-		user.setSalary(5000.00);
+		user.setSalary(10000.00);
 		try {
 			user.setDob(DatatypeFactory.newInstance().newXMLGregorianCalendar(gcal));
 			
