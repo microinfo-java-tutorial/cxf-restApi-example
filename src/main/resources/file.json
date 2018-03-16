@@ -1,0 +1,104 @@
+[{
+	"id": 5,
+	"Fname": "harsha",
+	"Lname": "vardhan",
+	"gender": "male",
+	"email": "harshak@gmail.com",
+	"dod": "01/01/1993",
+	"password": 123,
+	"Accounts": [{
+		"id": 1,
+		"user_id": 5,
+		"company_name": "cerner",
+		"country": "u.s.a",
+		"password": 1234,
+		"Adress": [{
+			"id": 1,
+			"address": "2001,Gemini street,77058",
+			"zipcode": 77058
+		}, {
+			"id": 2,
+			"address": "39600 fremont,CA",
+			"zipcode": 95467
+		}]
+	}, {
+		"id": 2,
+		"user_id": 5,
+		"company_name": "google",
+		"country": "u.s.a",
+		"password": 1234,
+		"Adress": [{
+			"id": 4,
+			"address": "2001,Gemini street,77058",
+			"zipcode": 77058
+		}, {
+			"id": 4,
+			"address": "39600 sanjose,CA",
+			"zipcode": 95467
+		}]
+	}, {
+		"id": 2,
+		"user_id": 5,
+		"company_name": "facebook",
+		"country": "u.s.a",
+		"password": 1234,
+		"Adress": [{
+			"id": 1,
+			"address": "2001,Gemini street,77058",
+			"zipcode": 77058
+		}, {
+			"id": 2,
+			"address": "39600 fremont,CA",
+			"zipcode": 95467
+		}]
+	}]
+}, {
+	"id": 6,
+	"Fname": "vishnu",
+	"Lname": "vardhan",
+	"gender": "male",
+	"email": "vishnu@gmail.com",
+	"dod": "01/01/1993",
+	"password": 123,
+	"Accounts": [{
+		"id": 1,
+		"user_id": 6,
+		"company_name": "cerner",
+		"country": "u.s.a",
+		"password": 1234,
+		"Adress": {
+			"id": 1,
+			"address": "2001,Gemini street,77058"
+		}
+	}, {
+		"id": 2,
+		"user_id": 6,
+		"company_name": "google",
+		"country": "u.s.a",
+		"password": 1234,
+		"Adress": [{
+			"id": 1,
+			"address": "2001,Gemini street,77058",
+			"zipcode": 77058
+		}, {
+			"id": 2,
+			"address": "39600 fremont,CA",
+			"zipcode": 95467
+		}]
+	}, {
+		"id": 3,
+		"user_id": 6,
+		"company_name": "yahoo",
+		"country": "u.s.a",
+		"password": 1234,
+		"Adress": [{
+			"id": 1,
+			"address": "2001,Gemini street,77058",
+			"zipcode": 77058
+		}, {
+			"id": 2,
+			"address": "39600 fremont,CA",
+			"zipcode": 95467
+		}]
+	}]
+}]
