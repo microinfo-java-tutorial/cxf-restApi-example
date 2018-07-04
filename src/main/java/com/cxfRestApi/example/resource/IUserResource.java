@@ -28,6 +28,7 @@ public interface IUserResource {
 	
 	
 	// http://localhost:8080/cxf-restApi-example/services/userService/getUserBean/123
+	//get method
 	@GET
 	@Path("getUserBean/{id}")
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
@@ -35,6 +36,7 @@ public interface IUserResource {
 	public UserBean getUserDetails(@PathParam("id") int userId);
 	
 	// http://localhost:8080/cxf-restApi-example/services/userService/getUserBean/123
+	
 	@GET
 	@Path("getUsers")
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
@@ -42,6 +44,7 @@ public interface IUserResource {
 	public Collection<UserBean> getAllUsers();
 	
 	// http://localhost:8080/cxf-restApi-example/services/userService/addUser
+	
 	@POST
 	@Path("addUser")
 	@Consumes(MediaType.APPLICATION_JSON)
